@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    background: black;
+}
+
+body {
+    height: 100%;
+}
+
+
+.calculator {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Courier;
+    color: white;
+}
+
+.button-board {
+    background: silver;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+}
