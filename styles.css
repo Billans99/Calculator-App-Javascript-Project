@@ -23,9 +23,27 @@ body {
     color: white;
 }
 
-.button-board {
-    background: silver;
-    height: 400px;
-    width: 300px;
+.screen {
     margin: 0 auto;
+    height: 65px;
+    width: 300px;
+    background-color: rgb(235, 235, 235);
+    border: 2px solid grey;
 }
+
+.button-board {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(235, 235, 235);
+    height: 400px;
+    width: 300px; 
+    margin: 0 auto;
+    
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+}
+
