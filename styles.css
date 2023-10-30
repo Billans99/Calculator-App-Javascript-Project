@@ -30,6 +30,7 @@ body {
 
 .screen {
     margin: 0 auto;
+    margin-top: 120px;
     height: 70px;
     width: 300px;
     background-color: rgb(235, 235, 235);
