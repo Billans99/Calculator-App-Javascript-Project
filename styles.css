@@ -61,3 +61,7 @@ body {
     background: linear-gradient(to right, var(--lighter), var(--light))
 }
 
+.long {
+    width: 140px;
+    border-radius: 20px;
+}
