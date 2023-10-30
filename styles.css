@@ -1,10 +1,15 @@
+:root {
+    --lighter: #f9d7fed9;
+    --light: #9aa8ffd9;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 html {
-    background: black;
+    background: rgb(0, 0, 39);
 }
 
 body {
@@ -13,7 +18,7 @@ body {
 
 
 .calculator {
-    background-color: black;
+    background: linear-gradient(var(--lighter), var(--light));
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
@@ -25,25 +30,33 @@ body {
 
 .screen {
     margin: 0 auto;
-    height: 65px;
+    height: 70px;
     width: 300px;
     background-color: rgb(235, 235, 235);
     border: 2px solid grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px
+    
 }
 
 .button-board {
     display: flex;
     flex-wrap: wrap;
-    background: rgb(235, 235, 235);
+    background: rgb(47, 47, 47);
     height: 400px;
     width: 300px; 
     margin: 0 auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     
 }
 
 .button {
+    font-size: 1.5rem;
+    font-style: white;
     width: 70px;
     height: 70px;
     border-radius: 25%;
+    background: linear-gradient(to right, var(--lighter), var(--light))
 }
 
