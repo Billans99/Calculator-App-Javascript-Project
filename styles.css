@@ -65,6 +65,18 @@ body {
     background: linear-gradient(to right, var(--lighter), var(--light))
 }
 
+.backboard {
+    margin: 0 auto;
+    margin-top: -445px;
+    margin-left: 164px;
+    height: 450px;
+    width: 300px;
+    background-color: rgb(235, 235, 235);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px
+    
+}
+
 .long {
     width: 140px;
     border-radius: 20px;
