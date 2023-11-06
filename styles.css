@@ -65,6 +65,10 @@ body {
     background: linear-gradient(to right, var(--lighter), var(--light))
 }
 
+.button:active {
+    background: #FFF;
+}
+
 .backboard {
     margin: 0 auto;
     margin-top: -445px;
