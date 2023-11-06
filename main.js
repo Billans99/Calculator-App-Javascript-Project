@@ -5,9 +5,9 @@ let calculation = []
 
 function calculate(button) {
     const value = button.textContent
-    if (value == "clear") {
+    if (value == "C") {
         calculation = []
-        screenDisplay.textContent = '.'
+        screenDisplay.textContent = ' '
     } else if (value === "=") {
         screenDisplay.textContent = eval(accumulativeCalculation)
     } else {
